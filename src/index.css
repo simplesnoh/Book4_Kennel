@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.kennel {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
