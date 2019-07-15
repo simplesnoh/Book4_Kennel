@@ -1,5 +1,5 @@
 {
-    "employeesFromAPI": [
+    "employees": [
     { 
         "id": 1, 
         "name": "Jessica Younker" 
@@ -18,7 +18,7 @@
     }
 ],
 
-"locationsFromAPI": [
+"locations": [
     { 
         "id": 1, 
         "name": "Nashville North", 
@@ -31,7 +31,7 @@
     }
 ],
 
-"animalsFromAPI": [
+"animals": [
     { 
         "id": 1, 
         "name": "Doodles" 
@@ -58,7 +58,7 @@
     }
 ],
 
-"ownersFromAPI": [
+"owners": [
     { 
         "id": 1, 
         "name": "Jack Reacher", 
