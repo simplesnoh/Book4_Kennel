@@ -5,10 +5,13 @@ class OwnerList extends Component {
         return (
             <section className="owners">
             {
-                this.props.owners.map(owner =>
+                this.props.owners.map(owner => 
                     <div key={owner.id}>
                         {owner.name} <br></br>
                         {owner.phoneNumber}
+                        <button
+                            onClick={() => this.props.deleteOwner(owner.id)}
+                            >Delete</button>
                     </div>
                 )
             }
