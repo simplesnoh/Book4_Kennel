@@ -10,7 +10,7 @@ class EmployeeList extends Component {
        <div key={employee.id}>
          {employee.name}
          <button
-            onClick={() => this.props.deleteEmployee(employee.id)}
+            onClick={() => this.props.deleteEmployee(employee.id, "employees")}
             >Delete</button>
         </div>
       )

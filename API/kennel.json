@@ -31,20 +31,16 @@
       "name": "Doodles"
     },
     {
+      "id": 2,
+      "name": "Roma"
+    },
+    {
       "id": 3,
-      "name": "Angus"
+      "name": "Nebula"
     },
     {
       "id": 4,
-      "name": "Henley"
-    },
-    {
-      "id": 5,
-      "name": "Derkins"
-    },
-    {
-      "id": 6,
-      "name": "Checkers"
+      "name": "Tippertina"
     }
   ],
   "owners": [

@@ -10,7 +10,7 @@ class OwnerList extends Component {
                         {owner.name} <br></br>
                         {owner.phoneNumber}
                         <button
-                            onClick={() => this.props.deleteOwner(owner.id)}
+                            onClick={() => this.props.deleteOwner(owner.id, "owners")}
                             >Delete</button>
                     </div>
                 )
